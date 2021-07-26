@@ -17,7 +17,11 @@ values = {column: list(data[column].unique())
 data['no_of_degrees'] = data['EducationSector'].apply(lambda val: len(val.split(',')))
 
 # Add a filed called is_stem which tells whether a student has taken a science degree or not
-data['is_stem'] = data['EducationSector'].apply(lambda val: 1 if 'Sciences' in val else 0)
+stem_fields = ['Engineering Sciences',
+               'Medicine, Health Sciences',
+               'Mathematics or Natural Sciences'] 
+
+data['is_stem'] = data['EducationSector'].apply(lambda val: 1 if val in stem_fields else 0)
     
 # Lable encode the following columns: IndividualProject, Gender, City, Influenced, MentalDisorder
 columns_to_lable = ['IndividualProject', 'Gender', 'City', 'Influenced', 'MentalDisorder']
