@@ -1,43 +1,58 @@
 """
 This file contains one of the many analysis conducted under
 the University Students Entrepreneurial Competency Research.
+
 The analysis question answered in this file is:
-What is the relation between having mental disorder and self-confidence or self-reliance?
-How does it change with age?
-Is it different for people who do not have a mental disorder?
 
-Conclusion:
+    What is the relation between having mental disorder
+    and self-confidence or self-reliance? How does it
+    change with age? Is it different for people who do
+    not have a mental disorder?
+    
+Conclusion in a Nutshell :
+
 With mental disorder:
-1. We find that more than half of the students with mental disorders have high self-confidence and
-self-reliance, and there is a slightly more percentage of these students having high self-reliance
-than high self-confidence.
-2. We see that there is no significant difference in the percentage of students having mental disorders
-and having high self-confidence from age 17 to 23.
-However, there is a spike in the percentage at age 25, and there are no students who have a mental
-disorder and high self-confidence at age 24.
-3. We see that the percentage of students with mental disorders and having high self-reliance increases
-till age 20, after which it again decreases.
-
+    1. We find that more than half of the students with mental
+       disorders have high self-confidence and self-reliance,
+       and there is a slightly more percentage of these students
+       having high self-reliance than high self-confidence.
+    
+    2. We see that there is no significant difference in the
+       percentage of students having mental disorders and having
+       high self-confidence from age 17 to 23. However, there is
+       a spike in the percentage at age 25, and there are no 
+       students who have a mental disorder and high self-confidence
+       at age 24.
+    
+    3. We see that the percentage of students with mental disorders
+       and having high self-reliance increases till age 20, after 
+       which it again decreases.
+    
 Without mental disorder:
-1. We find that more than half of the students without mental disorders have high self-confidence and
-self-reliance, and there is a significantly more percentage of these students having high self-reliance
-than high self-confidence.
-2. We see that the percentage of students having mental disorders and having high self-confidence
-from age 18 to 22 decreases.
-However, there is a spike in the percentage at age 24, and there are no students who have a mental
-disorder and high self-confidence at age 23.
-3. We see that the percentage of students having mental disorders and having high self-reliance
-from age 17 to 21 gradually increases.
-However, there is a spike in the percentage at age 24, and there are no students who have a mental
-disorder and high self-reliance at age 23. There is also a significant decline in the percentage
-at age 22.
-
+    1. We find that more than half of the students without mental 
+       disorders have high self-confidence and self-reliance, and
+       there is a significantly more percentage of these students 
+       having high self-reliance than high self-confidence.
+    
+    2. We see that the percentage of students having mental disorders
+       and having high self-confidence from age 18 to 22 decreases.
+       However, there is a spike in the percentage at age 24, and there
+       are no students who have a mental disorder and high self-confidence
+       at age 23.
+    
+    3. We see that the percentage of students having mental disorders and
+       having high self-reliance from age 17 to 21 gradually increases.
+       However, there is a spike in the percentage at age 24, and there are
+       no students who have a mental disorder and high self-reliance at age 23.
+       There is also a significant decline in the percentage at age 22.
+    
 Note:
-High self-confidence is defined as a rating of 4 or 5 in self-confidence.
-High self-reliance is defined as a rating of 4 or 5 in self-reliance.
-In the analysis, zero percentages might be explained by the lack of data; however, the sudden
-spikes at ages 24 and 25 are worth further investigation. 
+- High self-confidence is defined as a rating of 4 or 5 in self-confidence.
+- High self-reliance is defined as a rating of 4 or 5 in self-reliance.
+- In the analysis, zero percentages might be explained by the lack of data;
+  however, the sudden spikes at ages 24 and 25 are worth further investigation. 
 """
+
 from data_processing import data
 import matplotlib.pyplot as plt
 
