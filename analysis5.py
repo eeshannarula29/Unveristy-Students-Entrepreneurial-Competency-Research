@@ -53,7 +53,7 @@ Note:
   however, the sudden spikes at ages 24 and 25 are worth further investigation. 
 """
 
-from data_processing import data
+from data_preprocessing import data
 import matplotlib.pyplot as plt
 
 # a) Relation with self-confidence
