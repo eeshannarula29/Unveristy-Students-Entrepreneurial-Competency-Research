@@ -1,23 +1,30 @@
 """
 This file contains one of the many analysis conducted under
 the University Students Entrepreneurial Competency Research.
+
 The analysis question answered in this file is:
-How does competitiveness change with age or degree?
 
-Conclusion:
-With age:
-We find that more that about 60% students have a high competitiveness at age 17. This percentage decreases
-for two years, and then increases at age 20, remaining almost the same for the upcoming ages. Then,
-there is a spike in the percentage at age 24.
+    How does competitiveness change with age or degree?
 
-With degree:
-We find that about 60% of STEM students have high competitiveness whereas 40% of non-STEM students have
-high competitiveness.
+Conclusion in a Nutshell:
+
+- With age:
+    We find that more that about 60% students have a high
+    competitiveness at age 17. This percentage decreases
+    for two years, and then increases at age 20, remaining
+    almost the same for the upcoming ages. Then, there is a 
+    spike in the percentage at age 24.
+
+- With degree:
+    We find that about 60% of STEM students have high competitiveness
+    whereas 40% of non-STEM students have high competitiveness.
 
 Note:
-High competitiveness is defined as a rating of 4 or 5 on competitiveness.
+    High competitiveness is defined as a rating of 4 or 5 on
+    competitiveness.
 """
-from data_processing import data
+
+from data_preprocessing import data
 import matplotlib.pyplot as plt
 
 # a) Change with age
