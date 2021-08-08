@@ -3,24 +3,26 @@ This file contains one of the many analysis conducted under
 the University Students Entrepreneurial Competency Research.
 
 The analysis question answered in this file is:
-What is the correlation between a strong need to achieve something or the desire to
-take initiative and the probability of becoming an entrepreneur?
+
+    What is the correlation between a strong need to achieve
+    something or the desire to take initiative and the probability
+    of becoming an entrepreneur?
 
 Conclusion:
-1.
-We see that 60% of students with no probability of becoming an entrepreneur had a high need to achieve
-something, and 70% of students with probability of becoming an entrepreneur had a high need to achieve
-something.
-2.
-We see that 55% of students with no probability of becoming an entrepreneur had a high desire to take
-initiative, and 70% of students with probability of becoming an entrepreneur had a high desire to take
-initiative.
+1. We see that 60% of students with no probability of becoming an
+   entrepreneur had a high need to achieve something, and 70% of 
+   students with probability of becoming an entrepreneur had a high
+   need to achieve something.
+   
+2. We see that 55% of students with no probability of becoming an
+   entrepreneur had a high desire to take initiative, and 70% of
+   students with probability of becoming an entrepreneur had a high
+   desire to take initiative.
 
-Note:
-High desire to take initiative and high need to achieve something is defined as a rating of 4 or 5 on
-their respective scales.
+Note: High desire to take initiative and high need to achieve something is 
+      defined as a rating of 4 or 5 on their respective scales.
 """
-from data_processing import data
+from data_preprocessing import data
 import matplotlib.pyplot as plt
 
 # a) Strong need to achieve something
