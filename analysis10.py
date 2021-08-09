@@ -1,15 +1,18 @@
 """
 This file contains one of the many analysis conducted under
 the University Students Entrepreneurial Competency Research.
-The analysis question answered in this file is:
-Is there a relation between not having mental disorders and being influenced by someone?
 
-Conclusion:
-There is no significant difference in the percentage of students with or without mental disorders
-who are influenced by someone.
+The analysis question answered in this file is:
+
+        Is there a relation between not having mental disorders
+        and being influenced by someone?
+
+Conclusion: There is no significant difference in the percentage
+            of students with or without mental disorders who are 
+            influenced by someone.
 """
 
-from data_processing import data
+from data_preprocessing import data
 import matplotlib.pyplot as plt
 
 no_mental_disorder = data[data['MentalDisorder'] == 0].groupby("Influenced").count()['Age']
