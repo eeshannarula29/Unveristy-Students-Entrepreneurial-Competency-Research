@@ -11,11 +11,6 @@ data = data.drop(columns=['ReasonsForLack'], axis=1)
 values = {column: list(data[column].unique()) 
           for column in data.columns.values}
 
-# Add a filed called no_of_degrees which is the number of degrees a student is pursuing.
-# the 'EducationSector' column as degrees split by commas, so we would split the string value
-# and count the length of that list. The length is the number of degrees. 
-data['no_of_degrees'] = data['EducationSector'].apply(lambda val: len(val.split(',')))
-
 # Add a filed called is_stem which tells whether a student has taken a science degree or not
 stem_fields = ['Engineering Sciences',
                'Medicine, Health Sciences',
