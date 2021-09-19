@@ -11,4 +11,4 @@ This is analysis of university students, about their compitency of becoming an e
 
 ## Resources
 
-The dataset was obtained from kaggle, which is a online website used for obtaining datasets. 
+The dataset was obtained from kaggle, which is a online website used for obtaining datasets. [click here](https://www.kaggle.com/namanmanchanda/entrepreneurial-competency-in-university-students) to go to the dataset.
